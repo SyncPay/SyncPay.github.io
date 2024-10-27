@@ -71,14 +71,24 @@ p {
 	color: #777;
 }
 
-.contact-icons a {
-	margin-right: 10px;
+.contact-icons {
+	/* margin-right: 10px; */
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
 }
 
 .contact-icons img {
 	width: 20px;
 	height: 20px;
 	vertical-align: middle;
+}
+.contact-icons a {
+	transition: filter 0.3s ease; /* Smooth transition for darkening */
+}
+
+.contact-icons a:hover {
+	filter: brightness(0.8); /* Darkens the image slightly */
 }
 
 .milestone {
