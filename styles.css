@@ -1,0 +1,66 @@
+/* CSS de bază pentru a crea un stil simplu și modern */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f4f4f9;
+}
+
+.header {
+	text-align: center;
+	padding: 2rem;
+	background-color: #2d86f4;
+	color: white;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin-bottom: 1.5rem;
+}
+
+section {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #2d86f4;
+}
+
+.entry {
+	margin-bottom: 1.5rem;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	background-color: #2d86f4;
+	color: white;
+	margin-top: 2rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
