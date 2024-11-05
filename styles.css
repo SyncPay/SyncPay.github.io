@@ -181,3 +181,20 @@ ul li::before {
     margin-right: 0.5rem;
 }
 
+.survey-image {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.survey-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.survey-image p {
+    font-size: 1rem;
+    color: #555;
+}
