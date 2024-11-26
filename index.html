@@ -3,670 +3,993 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SyncPay Journey</title>
+        <title>CommunityConnect Journey</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header class="header">
-            <h1>SyncPay</h1>
-            <p>idee &bullet; încercare &bullet; călătorie</p>
+            <h1>CommunityConnect</h1>
+            <p>Îmbunătățim comunitățile împreună</p>
         </header>
 
         <section class="description">
             <p>
-                Această pagină este un jurnal - un jurnal de călătorie. De mult
-                voiam să avem un proiect comun în zona IT câțiva prieteni
-                apropiați, dar mereu a existat scuza timpului. Noroc - în măsura
-                în care se poate numi astfel - cu masterul și profu' de
-                <a href="https://ocw.cs.pub.ro/courses/se" target="_blank"
-                    >Inginerie Aplicată în Startup-uri (IAS)</a
-                >
-                că acum avem alături de alte motivații și să trecem materia.
-                <br />
-                Glumim. Deși e o temă de curs, o tratăm cât se poate de serios
-                ca prima noastră încercare de Startup și ne bucurăm din plin de
-                călătoria pe care o s-o avem, sperăm, mai mult de 3 luni... dar
-                cine știe.
-                <br />
-                În orice caz, aici vom documenta tot ce se poate, de la idee la
-                o finalitate.
+                <strong>CommunityConnect</strong> este o platformă care
+                facilitează comunicarea între locuitorii unui cartier și
+                autoritățile locale, permițând semnalarea problemelor
+                comunității și colaborarea pentru rezolvarea lor.
+            </p>
+            <p>
+                Aceasta nu a fost ideea noastră inițială. La început, am dorit
+                să dezvoltăm o aplicație de management financiar personal.
+                Totuși, în urma validării, am constatat că mulți oameni nu au
+                experiență cu astfel de instrumente și nu percep nevoia lor,
+                astfel că ideea nu a trecut testele de validitate pentru un
+                startup.
             </p>
         </section>
 
-        <section class="team">
-            <div class="team-member">
-                <img src="./assets/albert.jpeg" alt="Albert" />
-                <h3>Albert C.</h3>
-                <p class="roles">PM &bullet; Full Stack Dev</p>
-                <div class="contact-icons">
-                    <a href="mailto:albertcraciun@gmail.com" target="_blank">
-                        <img src="./assets/gmail.png" alt="Gmail" />
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/albertc1078"
-                        target="_blank"
-                    >
-                        <img src="./assets/linkedin.png" alt="LinkedIn" />
-                    </a>
-                    <a href="https://github.com/AlbertCraciun" target="_blank">
-                        <img src="./assets/github.png" alt="GitHub" />
-                    </a>
-                </div>
-            </div>
-
-            <div class="team-member">
-                <img src="./assets/alex.jpeg" alt="Alex C." />
-                <h3>Alex C.</h3>
-                <p class="roles">SA &bullet; Full Stack Dev</p>
-                <div class="contact-icons">
-                    <a href="mailto:alexcojocaru02@gmail.com" target="_blank">
-                        <img src="./assets/gmail.png" alt="Gmail" />
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/alex-cojocaru-a13b95206"
-                        target="_blank"
-                    >
-                        <img src="./assets/linkedin.png" alt="LinkedIn" />
-                    </a>
-                    <a href="https://github.com/alexcojocaru02" target="_blank">
-                        <img src="./assets/github.png" alt="GitHub" />
-                    </a>
-                </div>
-            </div>
-
-            <div class="team-member">
-                <img src="./assets/mark.jpeg" alt="Mark C." />
-                <h3>Mark C.</h3>
-                <p class="roles">BA &bullet; Full Stack Dev</p>
-                <div class="contact-icons">
-                    <a href="mailto:ciureamark@gmail.com" target="_blank">
-                        <img src="./assets/gmail.png" alt="Gmail" />
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/mark-luis-ciurea-8b416b1a0"
-                        target="_blank"
-                    >
-                        <img src="./assets/linkedin.png" alt="LinkedIn" />
-                    </a>
-                    <a href="https://github.com/MarkuTZ" target="_blank">
-                        <img src="./assets/github.png" alt="GitHub" />
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="milestone">
-            <h2>M1: Descrierea proiectului</h2>
-            <p class="milestone-link">
-                <a
-                    href="https://ocw.cs.pub.ro/courses/se/project/milestones/m1"
-                    target="_blank"
-                    >Cerințe <span class="external-arrow">&#x2197;</span></a
-                >
-            </p>
-
-            <div class="task">
-                <h3>Alegerea ideii • 17 Oct 2024</h3>
-                <p>
-                    Eu (Albert) și Alex ne-am întâlnit la în pauza de masă la
-                    Romană și am trecut vreo oră prin zeci de idei. Prima idee
-                    cu care venise Alex e și cea pe care o dezvoltăm acum, dar
-                    n-am vrut s-o acceptăm din prima. Probabil nu-i genială,
-                    ne-am lămurit că nu-i nici unică, dar timpul a fost scurt,
-                    celelalte idei mai puțin strălucitoare, așa că am rămas cu
-                    ea și, mai presus de toate, e o problemă cu care noi ne-am
-                    confruntat și ne place provocarea ce-o impune.
-                    <br /><br />
-                    De ce acest nume? Sync - de la sincronizare, Pay - de la
-                    plăți. Simplu: îți sincronizăm plățile. Totuși, ne-am gândit
-                    că are și o sonoritate bună.
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Problema identificată</h3>
-                <p>
-                    Există tot mai multe entități care oferă servicii bancare,
-                    în prezent majoritatea oamenilor deținînd mai multe conturi,
-                    respectiv carduri, la entități financiare diferite (Revolut,
-                    ING, BCR, BT etc.). Fiecare entitate oferă o aplicație
-                    proprie pentru vizualizarea tranzacțiilor și deferitor
-                    statistici asociate conturilor deschise strict la acea
-                    bancă.
-                </p>
-                <p>
-                    Există aplicații precum Apple Wallet sau Google Wallet care
-                    integrează mai multe carduri și permit vizualizarea plăților
-                    efectuate. Acestea nu concatenează tranzacțiile făcute
-                    într-un istoric comun, ci le păstrează în continuare ca
-                    plăți separate, nu oferă și date cu privire la venituri și,
-                    bineînțeles, nu au componenta de realizare a bugetului
-                    personal.
-                </p>
-                <p>
-                    Pe de altă parte, există aplicațiile de gestionare a
-                    finanțelor personale (de creare și urmărire a bugetului),
-                    însă adesea aceastea se bazează pe consecvența
-                    utilizatorului în introducerea manuală a tranzacților.
-                </p>
-                <p>
-                    Problema identificată de noi (și ca urmare a experienței
-                    personale, nu doar a analizei de piață) este existența a
-                    prea puține aplicații de management al finanțelor proprii
-                    care să permită urmărirea tuturor tranzacțiilor indiferent
-                    de cardul folosit, categorisirea automată a plăților și
-                    analiza sumelor pentru oferirea de statistici complete
-                    asupra capitalului personal.
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Soluția propusă</h3>
-                <p>
-                    SyncPay - o aplicație de gestioanare a bugetului personal
-                    care, indiferent cu ce plătești sau unde îți vin banii, vei
-                    putea vziualiza și compara datele pe o singură paltformă.
-                </p>
-                <p>
-                    Soluția software presupune integrarea mai multor entități
-                    bancare în platformă, creându-se astfel un istoric comun al
-                    tranzacțiilor, posibilitatea de categorisire automată și
-                    păstrarea unei acurateți ridicate în analiza bugetului.
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Aplicații similare</h3>
-                <ul>
-                    <li>
-                        <a href="https://budgetbakers.com/" target="_blank"
-                            >Wallet</a
-                        >
-                        are peste 6.5 milioane de utilizatori la nivel global,
-                        declarând că este prezentă în peste 160 de țări și
-                        tradusă în 20+ limbi, inclusiv româna. Dezvoltată de
-                        BudgetBakers (Cehia), aplicația "Wallet" sincronizează
-                        peste 15.000 de bănci și oferă o monitorizare automată a
-                        tranzacțiilor.
-                    </li>
-                    <li>
-                        <a href="https://iancuguda.ro/mim/" target="_blank"
-                            >MiM</a
-                        >
-                        este dedicată utilizatorilor din România. Iancu Guda
-                        este un profesor care dezvoltă voluntar aplicație dorind
-                        să contribuie prin acest proiect la educația financiară
-                        încă precară a românilor. Aplicația necesită
-                        introducerea manuală a tranzacțiilor și este ideală
-                        pentru urmărirea simplă a cheltuielilor, dar inteția
-                        declarată în descrierea aplicației este de a avea
-                        într-un viitor apropiat introducerea speech-to-text a
-                        tranzacțiilor și, ulterior, posibilitatea de integrare a
-                        cardurilor.
-                    </li>
-                </ul>
-            </div>
-
-            <div class="task">
-                <h3>Segmente de utilizatori</h3>
-                <p>
-                    Restrângerea la un grup țintă al aplicației este foarte
-                    dificilă deoarece toți oamenii folosesc bani, iar
-                    majoritatea dețin cel puțin un cont bancar. Astfel, ne
-                    adresăm unei audiențe globale, dar există câteva delimitări
-                    importante. De exemplu, segmentul de utilizatori cu vârsta
-                    mai mare de 50 de ani are, în general, o educație financiară
-                    și digitală mai redusă, ceea ce ne face să ne concentrăm pe
-                    cei sub 50 de ani, fără a exclude complet persoanele mai în
-                    vârstă care s-au adaptat totuți, măcar minimal, la era
-                    digitală.
-                    <br /><br />
-                    Totodată, este relevantă limita legală minimă pentru
-                    deținerea unui cont bancar și a unui card, deși aceasta nu
-                    este strict impusă în definirea grupului țintă. Este
-                    necesară, de asemenea, o segmentare pe niveluri de educație
-                    financiară, întrucât utilizatorii au cunoștințe variate
-                    despre gestionarea banilor și utilizarea instrumentelor
-                    financiare.
-                    <br /><br />
-                    În România, doar aproximativ 30% din populație efectuează
-                    plăți predominant cu cardul, ceea ce restrânge și mai mult
-                    audiența țintă pentru acest tip de aplicație
-                    <a
-                        href="https://www.bursa.ro/in-romania-only-30-procente-of-payments-are-made-by-cards-64689153"
-                        target="_blank"
-                        >&#x2197;</a
-                    >.
-                </p>
-
-                <ul>
-                    <li>
-                        <strong>Adolescenți (14-18 ani):</strong> Folosesc
-                        cardurile de tineret oferite de bănci pentru cumpărături
-                        mici și plăți online. Adesea au cunoștințe financiare
-                        limitate, fiind ghidați de părinți.
-                    </li>
-                    <li>
-                        <strong>Tineri adulți (18-25 ani):</strong> Încep să
-                        gestioneze singuri un buget, primesc salarii sau
-                        alocații de studiu. Sunt familiarizați cu aplicațiile
-                        financiare și apreciază integrarea ușoară a
-                        tranzacțiilor.
-                    </li>
-                    <li>
-                        <strong>Adulți activi profesional (25-40 ani):</strong>
-                        Au venituri stabile, conturi multiple și folosesc
-                        cardurile atât pentru plăți fizice, cât și pentru
-                        tranzacții online. Au un interes crescut pentru
-                        gestionarea bugetului și economisire.
-                    </li>
-                    <li>
-                        <strong
-                            >Adulți cu responsabilități familiale (30-50
-                            ani):</strong
-                        >
-                        Se concentrează pe economii și bugete pentru familie. Au
-                        cunoștințe financiare mai avansate și adesea caută
-                        instrumente de monitorizare a cheltuielilor familiei.
-                    </li>
-                    <li>
-                        <strong>Seniori digitalizați (50+ ani):</strong> Deși nu
-                        reprezintă o mare parte din utilizatori, acești seniori
-                        sunt familiarizați cu tehnologia digitală și folosesc
-                        carduri pentru tranzacții zilnice. Au nevoie de o
-                        interfață intuitivă și simplă.
-                    </li>
-                </ul>
-            </div>
-
-            <div class="task">
-                <h3>Metrici ale succesului</h3>
-                <p>
-                    Acești indicatori sunt esențiali pentru a înțelege succesul
-                    aplicației SyncPay, organizându-i în trei categorii
-                    principale:
-                </p>
-
-                <ul>
-                    <li>
-                        <strong>Implicarea utilizatorilor</strong>
-                        <ul>
-                            <li>
-                                <strong>Numărul de utilizatori activi:</strong>
-                                Numărul de persoane care utilizează aplicația
-                                zilnic, săptămânal sau lunar.
-                            </li>
-                            <li>
-                                <strong>Rata de retenție:</strong> Procentul
-                                utilizatorilor care continuă să utilizeze
-                                aplicația după o anumită perioadă (ex. 1 lună, 3
-                                luni).
-                            </li>
-                            <li>
-                                <strong>Rata de abandon (Churn Rate):</strong>
-                                Procentul de utilizatori care renunță la
-                                aplicație după o anumită perioadă.
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <strong>Profitabilitatea</strong>
-                        <ul>
-                            <li>
-                                <strong
-                                    >Monthly Recurring Revenue (MRR):</strong
-                                >
-                                Totalul veniturilor recurente generate de
-                                abonamentele lunare.
-                            </li>
-                            <li>
-                                <strong
-                                    >Customer Acquisition Cost (CAC):</strong
-                                >
-                                Costul mediu pentru a atrage un nou utilizator
-                                prin marketing și publicitate.
-                            </li>
-                            <li>
-                                <strong>Lifetime Value (LTV):</strong>
-                                Valoarea totală generată de un utilizator pe
-                                toată durata utilizării aplicației.
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <strong>Satisfacția utilizatorilor:</strong> recenziile
-                        și rating-urile în App Store și Google Play, care
-                        reflectă satisfacția generală a utilizatorilor.
-                    </li>
-                </ul>
-            </div>
-
-            <div class="task">
-                <h3>Costul dezvoltării</h3>
-                <p>
-                    Suntem studenți, deci vrem costuri cât mai reduse. De
-                    dezvoltare n-are rost să amintesc... dar pentru publicarea
-                    aplicației sunt câteva costuri esențiale. Iată cum arată
-                    estimările naostre:
-                </p>
-                <ul>
-                    <li>
-                        <strong>Domeniu:</strong> Domeniul personalizat costă
-                        aproximativ 10-30 USD pe an, o cheltuială necesară
-                        pentru branding.
-                    </li>
-                    <li>
-                        <strong>Hosting:</strong> Alegem un plan VPS accesibil,
-                        la 5-15 USD pe lună (DigitalOcean sau Vultr), potrivit
-                        pentru faza de MVP.
-                    </li>
-                    <li>
-                        <strong>SSL:</strong> Vom folosi certificate SSL
-                        gratuite de la Let’s Encrypt cel mai probabil.
-                    </li>
-                    <li>
-                        <strong>Publicare pe platforme:</strong> Google Play
-                        necesită o taxă unică de 25 USD, iar App Store o taxă
-                        anuală de ~100 USD, adică un total de 125 USD în primă
-                        fază.
-                    </li>
-                    <li>
-                        <strong>API-uri externe:</strong> Dacă folosim API-uri
-                        pentru integrare cu bănci, costul estimat va fi de
-                        100-200 USD pe lună. Dar probabil că odată ce vom
-                        aprofunda partea aceast din punct de vedere tehnic, vom
-                        avea un cost estimat mai apropiat de realitate.
-                    </li>
-                </ul>
-                <p>
-                    Astfel, costurile totale pentru publicare sunt estimate
-                    între <strong>200 și 500 USD</strong>. Totuți, vor exista și
-                    costuri de publicitate (sume investite în marketing, dar
-                    aceastea ar putea fi reduse prin folosirea talentelor
-                    prietenilor). În rest, noi ne aducem aportul voluntar la
-                    dezvoltare :)
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Posibile venituri</h3>
-                <p>
-                    Strategia de monetizare pentru SyncPay rămâne în discuție,
-                    având în vedere obiectivul nostru de a oferi utilizatorilor
-                    o experiență financiară accesibilă. Iată câteva opțiuni pe
-                    care le analizăm:
-                </p>
-                <ul>
-                    <li>
-                        <strong
-                            >Contribuții de la utilizatori prin
-                            abonamente:</strong
-                        >
-                        Una dintre metodele de venituri ar putea fi un abonament
-                        lunar. Această opțiune s-ar putea desfășura sub forma
-                        unei taxe fixe, însă explorăm și varianta unei taxe
-                        ajustabile, bazată pe veniturile utilizatorilor. De
-                        exemplu, utilizatorii ar putea plăti un procent din
-                        veniturile lor, cu praguri diferite pentru diverse
-                        categorii de venit: de la un procent mai mare pentru
-                        venituri reduse (de ex. 3% pentru până la 500 de lei) la
-                        unul semnificativ mai mic pentru venituri ridicate (de
-                        ex. 0,5% pentru peste 3000 de lei). Astfel, fiecare
-                        contribuie proporțional cu posibilitățile sale
-                        financiare, păstrând o echitate rezonabilă.
-                    </li>
-                    <li>
-                        <strong>Plată unică „lifetime”:</strong> Deși nu este
-                        opțiunea noastră principală, analizăm și posibilitatea
-                        unei taxe unice pe viață. Această opțiune oferă acces
-                        complet la aplicație fără costuri recurente, dar
-                        necesită o decizie atentă pentru a asigura
-                        sustenabilitatea pe termen lung.
-                    </li>
-                    <li>
-                        <strong>Model freemium:</strong> Deși nu suntem mari
-                        fani ai acestui model, am observat succesul multor
-                        aplicații care oferă funcționalități de bază gratuite,
-                        rezervând caracteristicile avansate pentru utilizatorii
-                        premium. Rămânem însă precauți față de această abordare,
-                        deoarece dorim să evităm experiențele frustrante pe care
-                        le-am avut noi înșine cu aplicații freemium.
-                    </li>
-                    <li>
-                        <strong>Reclame relevante:</strong> O sursă alternativă
-                        de venit ar putea fi reclamele sponsorizate, dar ne-am
-                        angajat să păstrăm calitatea experienței pentru
-                        utilizator. Astfel, ne orientăm către reclame relevante
-                        și utile, cum ar fi cursuri de educație financiară sau
-                        oferte de credite de la instituții bancare, servicii
-                        avansate gratuite (de exemplu, sfaturi de la AI-chatbots
-                        financiari sau analiști umani).
-                    </li>
-                </ul>
-                <p>
-                    Căutăm variante de monetizare echitabile și accesibile
-                    pentru toate segmentele de utilizatori, de la adolescenți la
-                    afaceriști cu venituri ridicate.
-                </p>
-            </div>
-        </section>
-
-        <section class="milestone">
-            <h2>M2: Validarea ideii</h2>
-
-            <div class="task">
-                <h3>Scopul interviurilor</h3>
-                <p>
-                    Obiectivul principal a fost să evaluăm
-                    <strong
-                        >ideea aplicației noastre de management
-                        financiar</strong
-                    >
-                    și să înțelegem dacă aceasta abordează cu succes
-                    <strong>nevoile utilizatorilor</strong> în ceea ce privește
-                    bugetarea și economisirea. Prin interviuri structurate și
-                    aplicând <strong>principiile Mom Test</strong>, am încercat
-                    să obținem <strong>feedback sincer</strong> și să
-                    identificăm provocările și dorințele acestora.
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Metodologie</h3>
-                <p>
-                    Am organizat interviuri cu un eșantion diversificat de
-                    persoane, în funcție de vârstă și statut financiar, pentru a
-                    obține o imagine de ansamblu completă. Conform principiilor
-                    Mom Test, am pus accent pe întrebări neutre și deschise,
-                    care au încurajat participanții să își exprime opiniile în
-                    mod autentic, evitând răspunsurile de complezență. De
-                    asemenea am lanst și un scurt chestionar (google forms)
-                    pentru a obține feedback minimal de la un număr mai mare de
-                    persoane.
-                </p>
-            </div>
-
-            <div class="task">
-                <h3>Rezultate și Observații</h3>
-                <ul>
-                    <li>
-                        Majoritatea participanților și-au exprimat interesul
-                        pentru o aplicație de
-                        <strong>monitorizare a cheltuielilor</strong> care să îi
-                        ajute să își înțeleagă mai bine obiceiurile financiare.
-                    </li>
-                    <li>
-                        Categoriile mai tinere au raportat că întâmpină
-                        <strong
-                            >mai multe dificultăți în gestionarea
-                            finanțelor</strong
-                        >, având tendința de a cheltui fără un plan clar.
-                    </li>
-                    <li>
-                        Participanții mai în vârstă au demonstrat o
-                        <strong>abilitate mai mare de a economisi</strong> și au
-                        fost mai sceptici față de aplicațiile de bugetare,
-                        considerând că își controlează bine cheltuielile.
-                    </li>
-                    <li>
-                        Cei mai mulți participanți au subliniat importanța unei
-                        <strong
-                            >interfețe intuitive și a unui sistem de
-                            notificări</strong
-                        >
-                        pentru a fi constant informați despre cheltuielile lor.
-                    </li>
-                </ul>
-                <div class="task">
-                    <h3>Rezultate ale sondajului</h3>
+        <section class="old-content">
+            <button class="dropdown-btn">
+                Vezi ideea inițială și progresul anterior
+            </button>
+            <div class="dropdown-content">
+                <section class="description">
                     <p>
-                        Am realizat un sondaj pentru a înțelege mai bine
-                        obiceiurile utilizatorilor privind gestionarea
-                        finanțelor și preferințele lor. Iată câteva dintre
-                        rezultatele relevante:
+                        Această pagină este un jurnal - un jurnal de călătorie.
+                        De mult voiam să avem un proiect comun în zona IT câțiva
+                        prieteni apropiați, dar mereu a existat scuza timpului.
+                        Noroc - în măsura în care se poate numi astfel - cu
+                        masterul și profu' de
+                        <a
+                            href="https://ocw.cs.pub.ro/courses/se"
+                            target="_blank"
+                            >Inginerie Aplicată în Startup-uri (IAS)</a
+                        >
+                        că acum avem alături de alte motivații și să trecem
+                        materia.
+                        <br />
+                        Glumim. Deși e o temă de curs, o tratăm cât se poate de
+                        serios ca prima noastră încercare de Startup și ne
+                        bucurăm din plin de călătoria pe care o s-o avem,
+                        sperăm, mai mult de 3 luni... dar cine știe.
+                        <br />
+                        În orice caz, aici vom documenta tot ce se poate, de la
+                        idee la o finalitate.
                     </p>
-                    <br />
-                    <div class="survey-image">
-                        <img
-                            src="./assets/form1.png"
-                            alt="Distribuția pe categorii de vârstă"
-                        />
+                </section>
+
+                <section class="team">
+                    <div class="team-member">
+                        <img src="./assets/albert.jpeg" alt="Albert" />
+                        <h3>Albert C.</h3>
+                        <p class="roles">PM &bullet; Full Stack Dev</p>
+                        <div class="contact-icons">
+                            <a
+                                href="mailto:albertcraciun@gmail.com"
+                                target="_blank"
+                            >
+                                <img src="./assets/gmail.png" alt="Gmail" />
+                            </a>
+                            <a
+                                href="https://linkedin.com/in/albertc1078"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/linkedin.png"
+                                    alt="LinkedIn"
+                                />
+                            </a>
+                            <a
+                                href="https://github.com/AlbertCraciun"
+                                target="_blank"
+                            >
+                                <img src="./assets/github.png" alt="GitHub" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="./assets/alex.jpeg" alt="Alex C." />
+                        <h3>Alex C.</h3>
+                        <p class="roles">SA &bullet; Full Stack Dev</p>
+                        <div class="contact-icons">
+                            <a
+                                href="mailto:alexcojocaru02@gmail.com"
+                                target="_blank"
+                            >
+                                <img src="./assets/gmail.png" alt="Gmail" />
+                            </a>
+                            <a
+                                href="https://linkedin.com/in/alex-cojocaru-a13b95206"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/linkedin.png"
+                                    alt="LinkedIn"
+                                />
+                            </a>
+                            <a
+                                href="https://github.com/alexcojocaru02"
+                                target="_blank"
+                            >
+                                <img src="./assets/github.png" alt="GitHub" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <img src="./assets/mark.jpeg" alt="Mark C." />
+                        <h3>Mark C.</h3>
+                        <p class="roles">BA &bullet; Full Stack Dev</p>
+                        <div class="contact-icons">
+                            <a
+                                href="mailto:ciureamark@gmail.com"
+                                target="_blank"
+                            >
+                                <img src="./assets/gmail.png" alt="Gmail" />
+                            </a>
+                            <a
+                                href="https://linkedin.com/in/mark-luis-ciurea-8b416b1a0"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/linkedin.png"
+                                    alt="LinkedIn"
+                                />
+                            </a>
+                            <a
+                                href="https://github.com/MarkuTZ"
+                                target="_blank"
+                            >
+                                <img src="./assets/github.png" alt="GitHub" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="milestone">
+                    <h2>M1: Descrierea proiectului</h2>
+                    <p class="milestone-link">
+                        <a
+                            href="https://ocw.cs.pub.ro/courses/se/project/milestones/m1"
+                            target="_blank"
+                            >Cerințe
+                            <span class="external-arrow">&#x2197;</span></a
+                        >
+                    </p>
+
+                    <div class="task">
+                        <h3>Alegerea ideii • 17 Oct 2024</h3>
                         <p>
-                            <strong
-                                >În ce categorie de vârstă te încadrezi?</strong
-                            ><br />
-                            Majoritatea respondenților (73.9%) se încadrează în
-                            categoria de vârstă 18-25 de ani, sugerând că
-                            aplicația noastră va trebui să se concentreze pe
-                            nevoile acestei categorii, urmată de 13% în
-                            segmentul 46-55 de ani.
+                            Eu (Albert) și Alex ne-am întâlnit la în pauza de
+                            masă la Romană și am trecut vreo oră prin zeci de
+                            idei. Prima idee cu care venise Alex e și cea pe
+                            care o dezvoltăm acum, dar n-am vrut s-o acceptăm
+                            din prima. Probabil nu-i genială, ne-am lămurit că
+                            nu-i nici unică, dar timpul a fost scurt, celelalte
+                            idei mai puțin strălucitoare, așa că am rămas cu ea
+                            și, mai presus de toate, e o problemă cu care noi
+                            ne-am confruntat și ne place provocarea ce-o impune.
+                            <br /><br />
+                            De ce acest nume? Sync - de la sincronizare, Pay -
+                            de la plăți. Simplu: îți sincronizăm plățile.
+                            Totuși, ne-am gândit că are și o sonoritate bună.
                         </p>
                     </div>
-                    <br />
-                    <div class="survey-image">
-                        <img
-                            src="./assets/form2.png"
-                            alt="Utilizarea aplicațiilor de gestionare financiară"
-                        />
+
+                    <div class="task">
+                        <h3>Problema identificată</h3>
                         <p>
-                            <strong
-                                >Folosești în prezent aplicații de gestionare a
-                                finanțelor / bugetului personal?</strong
-                            ><br />
-                            Aproximativ 56.5% dintre respondenți nu utilizează
-                            în prezent astfel de aplicații, în timp ce 34.8% le
-                            folosesc. Acest lucru subliniază un potențial mare
-                            de utilizatori care ar putea fi atrași de aplicația
-                            noastră.
+                            Există tot mai multe entități care oferă servicii
+                            bancare, în prezent majoritatea oamenilor deținînd
+                            mai multe conturi, respectiv carduri, la entități
+                            financiare diferite (Revolut, ING, BCR, BT etc.).
+                            Fiecare entitate oferă o aplicație proprie pentru
+                            vizualizarea tranzacțiilor și deferitor statistici
+                            asociate conturilor deschise strict la acea bancă.
+                        </p>
+                        <p>
+                            Există aplicații precum Apple Wallet sau Google
+                            Wallet care integrează mai multe carduri și permit
+                            vizualizarea plăților efectuate. Acestea nu
+                            concatenează tranzacțiile făcute într-un istoric
+                            comun, ci le păstrează în continuare ca plăți
+                            separate, nu oferă și date cu privire la venituri
+                            și, bineînțeles, nu au componenta de realizare a
+                            bugetului personal.
+                        </p>
+                        <p>
+                            Pe de altă parte, există aplicațiile de gestionare a
+                            finanțelor personale (de creare și urmărire a
+                            bugetului), însă adesea aceastea se bazează pe
+                            consecvența utilizatorului în introducerea manuală a
+                            tranzacților.
+                        </p>
+                        <p>
+                            Problema identificată de noi (și ca urmare a
+                            experienței personale, nu doar a analizei de piață)
+                            este existența a prea puține aplicații de management
+                            al finanțelor proprii care să permită urmărirea
+                            tuturor tranzacțiilor indiferent de cardul folosit,
+                            categorisirea automată a plăților și analiza sumelor
+                            pentru oferirea de statistici complete asupra
+                            capitalului personal.
                         </p>
                     </div>
-                    <br />
-                    <div class="survey-image">
-                        <img
-                            src="./assets/form3.png"
-                            alt="Aplicațiile folosite recent pentru gestionarea bugetului"
-                        />
+
+                    <div class="task">
+                        <h3>Soluția propusă</h3>
                         <p>
-                            <strong
-                                >Ce aplicație ai folosit cel mai recent /
-                                folosești pentru gestionarea finanțelor /
-                                bugetului personal?</strong
-                            ><br />
-                            Respondenții au menționat aplicații variate, precum
-                            Revolut, George BCR, Money Manager, și Google Pay,
-                            indicând o gamă largă de preferințe în utilizarea
-                            aplicațiilor financiare și nevoia unei soluții
-                            integrate.
+                            SyncPay - o aplicație de gestioanare a bugetului
+                            personal care, indiferent cu ce plătești sau unde
+                            îți vin banii, vei putea vziualiza și compara datele
+                            pe o singură paltformă.
+                        </p>
+                        <p>
+                            Soluția software presupune integrarea mai multor
+                            entități bancare în platformă, creându-se astfel un
+                            istoric comun al tranzacțiilor, posibilitatea de
+                            categorisire automată și păstrarea unei acurateți
+                            ridicate în analiza bugetului.
                         </p>
                     </div>
-                    <br />
-                    <div class="survey-image">
-                        <img
-                            src="./assets/form4.png"
-                            alt="Satisfacția utilizatorilor față de aplicațiile folosite"
-                        />
+
+                    <div class="task">
+                        <h3>Aplicații similare</h3>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://budgetbakers.com/"
+                                    target="_blank"
+                                    >Wallet</a
+                                >
+                                are peste 6.5 milioane de utilizatori la nivel
+                                global, declarând că este prezentă în peste 160
+                                de țări și tradusă în 20+ limbi, inclusiv
+                                româna. Dezvoltată de BudgetBakers (Cehia),
+                                aplicația "Wallet" sincronizează peste 15.000 de
+                                bănci și oferă o monitorizare automată a
+                                tranzacțiilor.
+                            </li>
+                            <li>
+                                <a
+                                    href="https://iancuguda.ro/mim/"
+                                    target="_blank"
+                                    >MiM</a
+                                >
+                                este dedicată utilizatorilor din România. Iancu
+                                Guda este un profesor care dezvoltă voluntar
+                                aplicație dorind să contribuie prin acest
+                                proiect la educația financiară încă precară a
+                                românilor. Aplicația necesită introducerea
+                                manuală a tranzacțiilor și este ideală pentru
+                                urmărirea simplă a cheltuielilor, dar inteția
+                                declarată în descrierea aplicației este de a
+                                avea într-un viitor apropiat introducerea
+                                speech-to-text a tranzacțiilor și, ulterior,
+                                posibilitatea de integrare a cardurilor.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="task">
+                        <h3>Segmente de utilizatori</h3>
                         <p>
-                            <strong
-                                >Cât de mulțumit ești de aplicația folosită cel
-                                mai recent în ceea ce privește urmărirea tuturor
-                                conturilor tale financiare?</strong
-                            ><br />
-                            Aproximativ 50% dintre utilizatori au acordat
-                            aplicației o notă de 5, indicând un nivel ridicat de
-                            satisfacție. Totuși, există spațiu pentru
-                            îmbunătățiri, deoarece 40% au oferit nota 4, iar 10%
-                            au oferit nota 3.
+                            Restrângerea la un grup țintă al aplicației este
+                            foarte dificilă deoarece toți oamenii folosesc bani,
+                            iar majoritatea dețin cel puțin un cont bancar.
+                            Astfel, ne adresăm unei audiențe globale, dar există
+                            câteva delimitări importante. De exemplu, segmentul
+                            de utilizatori cu vârsta mai mare de 50 de ani are,
+                            în general, o educație financiară și digitală mai
+                            redusă, ceea ce ne face să ne concentrăm pe cei sub
+                            50 de ani, fără a exclude complet persoanele mai în
+                            vârstă care s-au adaptat totuți, măcar minimal, la
+                            era digitală.
+                            <br /><br />
+                            Totodată, este relevantă limita legală minimă pentru
+                            deținerea unui cont bancar și a unui card, deși
+                            aceasta nu este strict impusă în definirea grupului
+                            țintă. Este necesară, de asemenea, o segmentare pe
+                            niveluri de educație financiară, întrucât
+                            utilizatorii au cunoștințe variate despre
+                            gestionarea banilor și utilizarea instrumentelor
+                            financiare.
+                            <br /><br />
+                            În România, doar aproximativ 30% din populație
+                            efectuează plăți predominant cu cardul, ceea ce
+                            restrânge și mai mult audiența țintă pentru acest
+                            tip de aplicație
+                            <a
+                                href="https://www.bursa.ro/in-romania-only-30-procente-of-payments-are-made-by-cards-64689153"
+                                target="_blank"
+                                >&#x2197;</a
+                            >.
                         </p>
+
+                        <ul>
+                            <li>
+                                <strong>Adolescenți (14-18 ani):</strong>
+                                Folosesc cardurile de tineret oferite de bănci
+                                pentru cumpărături mici și plăți online. Adesea
+                                au cunoștințe financiare limitate, fiind ghidați
+                                de părinți.
+                            </li>
+                            <li>
+                                <strong>Tineri adulți (18-25 ani):</strong>
+                                Încep să gestioneze singuri un buget, primesc
+                                salarii sau alocații de studiu. Sunt
+                                familiarizați cu aplicațiile financiare și
+                                apreciază integrarea ușoară a tranzacțiilor.
+                            </li>
+                            <li>
+                                <strong
+                                    >Adulți activi profesional (25-40
+                                    ani):</strong
+                                >
+                                Au venituri stabile, conturi multiple și
+                                folosesc cardurile atât pentru plăți fizice, cât
+                                și pentru tranzacții online. Au un interes
+                                crescut pentru gestionarea bugetului și
+                                economisire.
+                            </li>
+                            <li>
+                                <strong
+                                    >Adulți cu responsabilități familiale (30-50
+                                    ani):</strong
+                                >
+                                Se concentrează pe economii și bugete pentru
+                                familie. Au cunoștințe financiare mai avansate
+                                și adesea caută instrumente de monitorizare a
+                                cheltuielilor familiei.
+                            </li>
+                            <li>
+                                <strong>Seniori digitalizați (50+ ani):</strong>
+                                Deși nu reprezintă o mare parte din utilizatori,
+                                acești seniori sunt familiarizați cu tehnologia
+                                digitală și folosesc carduri pentru tranzacții
+                                zilnice. Au nevoie de o interfață intuitivă și
+                                simplă.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="task">
+                        <h3>Metrici ale succesului</h3>
+                        <p>
+                            Acești indicatori sunt esențiali pentru a înțelege
+                            succesul aplicației SyncPay, organizându-i în trei
+                            categorii principale:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>Implicarea utilizatorilor</strong>
+                                <ul>
+                                    <li>
+                                        <strong
+                                            >Numărul de utilizatori
+                                            activi:</strong
+                                        >
+                                        Numărul de persoane care utilizează
+                                        aplicația zilnic, săptămânal sau lunar.
+                                    </li>
+                                    <li>
+                                        <strong>Rata de retenție:</strong>
+                                        Procentul utilizatorilor care continuă
+                                        să utilizeze aplicația după o anumită
+                                        perioadă (ex. 1 lună, 3 luni).
+                                    </li>
+                                    <li>
+                                        <strong
+                                            >Rata de abandon (Churn
+                                            Rate):</strong
+                                        >
+                                        Procentul de utilizatori care renunță la
+                                        aplicație după o anumită perioadă.
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <strong>Profitabilitatea</strong>
+                                <ul>
+                                    <li>
+                                        <strong
+                                            >Monthly Recurring Revenue
+                                            (MRR):</strong
+                                        >
+                                        Totalul veniturilor recurente generate
+                                        de abonamentele lunare.
+                                    </li>
+                                    <li>
+                                        <strong
+                                            >Customer Acquisition Cost
+                                            (CAC):</strong
+                                        >
+                                        Costul mediu pentru a atrage un nou
+                                        utilizator prin marketing și
+                                        publicitate.
+                                    </li>
+                                    <li>
+                                        <strong>Lifetime Value (LTV):</strong>
+                                        Valoarea totală generată de un
+                                        utilizator pe toată durata utilizării
+                                        aplicației.
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <strong>Satisfacția utilizatorilor:</strong>
+                                recenziile și rating-urile în App Store și
+                                Google Play, care reflectă satisfacția generală
+                                a utilizatorilor.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="task">
+                        <h3>Costul dezvoltării</h3>
+                        <p>
+                            Suntem studenți, deci vrem costuri cât mai reduse.
+                            De dezvoltare n-are rost să amintesc... dar pentru
+                            publicarea aplicației sunt câteva costuri esențiale.
+                            Iată cum arată estimările naostre:
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Domeniu:</strong> Domeniul personalizat
+                                costă aproximativ 10-30 USD pe an, o cheltuială
+                                necesară pentru branding.
+                            </li>
+                            <li>
+                                <strong>Hosting:</strong> Alegem un plan VPS
+                                accesibil, la 5-15 USD pe lună (DigitalOcean sau
+                                Vultr), potrivit pentru faza de MVP.
+                            </li>
+                            <li>
+                                <strong>SSL:</strong> Vom folosi certificate SSL
+                                gratuite de la Let’s Encrypt cel mai probabil.
+                            </li>
+                            <li>
+                                <strong>Publicare pe platforme:</strong> Google
+                                Play necesită o taxă unică de 25 USD, iar App
+                                Store o taxă anuală de ~100 USD, adică un total
+                                de 125 USD în primă fază.
+                            </li>
+                            <li>
+                                <strong>API-uri externe:</strong> Dacă folosim
+                                API-uri pentru integrare cu bănci, costul
+                                estimat va fi de 100-200 USD pe lună. Dar
+                                probabil că odată ce vom aprofunda partea aceast
+                                din punct de vedere tehnic, vom avea un cost
+                                estimat mai apropiat de realitate.
+                            </li>
+                        </ul>
+                        <p>
+                            Astfel, costurile totale pentru publicare sunt
+                            estimate între <strong>200 și 500 USD</strong>.
+                            Totuți, vor exista și costuri de publicitate (sume
+                            investite în marketing, dar aceastea ar putea fi
+                            reduse prin folosirea talentelor prietenilor). În
+                            rest, noi ne aducem aportul voluntar la dezvoltare
+                            :)
+                        </p>
+                    </div>
+
+                    <div class="task">
+                        <h3>Posibile venituri</h3>
+                        <p>
+                            Strategia de monetizare pentru SyncPay rămâne în
+                            discuție, având în vedere obiectivul nostru de a
+                            oferi utilizatorilor o experiență financiară
+                            accesibilă. Iată câteva opțiuni pe care le analizăm:
+                        </p>
+                        <ul>
+                            <li>
+                                <strong
+                                    >Contribuții de la utilizatori prin
+                                    abonamente:</strong
+                                >
+                                Una dintre metodele de venituri ar putea fi un
+                                abonament lunar. Această opțiune s-ar putea
+                                desfășura sub forma unei taxe fixe, însă
+                                explorăm și varianta unei taxe ajustabile,
+                                bazată pe veniturile utilizatorilor. De exemplu,
+                                utilizatorii ar putea plăti un procent din
+                                veniturile lor, cu praguri diferite pentru
+                                diverse categorii de venit: de la un procent mai
+                                mare pentru venituri reduse (de ex. 3% pentru
+                                până la 500 de lei) la unul semnificativ mai mic
+                                pentru venituri ridicate (de ex. 0,5% pentru
+                                peste 3000 de lei). Astfel, fiecare contribuie
+                                proporțional cu posibilitățile sale financiare,
+                                păstrând o echitate rezonabilă.
+                            </li>
+                            <li>
+                                <strong>Plată unică „lifetime”:</strong> Deși nu
+                                este opțiunea noastră principală, analizăm și
+                                posibilitatea unei taxe unice pe viață. Această
+                                opțiune oferă acces complet la aplicație fără
+                                costuri recurente, dar necesită o decizie atentă
+                                pentru a asigura sustenabilitatea pe termen
+                                lung.
+                            </li>
+                            <li>
+                                <strong>Model freemium:</strong> Deși nu suntem
+                                mari fani ai acestui model, am observat succesul
+                                multor aplicații care oferă funcționalități de
+                                bază gratuite, rezervând caracteristicile
+                                avansate pentru utilizatorii premium. Rămânem
+                                însă precauți față de această abordare, deoarece
+                                dorim să evităm experiențele frustrante pe care
+                                le-am avut noi înșine cu aplicații freemium.
+                            </li>
+                            <li>
+                                <strong>Reclame relevante:</strong> O sursă
+                                alternativă de venit ar putea fi reclamele
+                                sponsorizate, dar ne-am angajat să păstrăm
+                                calitatea experienței pentru utilizator. Astfel,
+                                ne orientăm către reclame relevante și utile,
+                                cum ar fi cursuri de educație financiară sau
+                                oferte de credite de la instituții bancare,
+                                servicii avansate gratuite (de exemplu, sfaturi
+                                de la AI-chatbots financiari sau analiști
+                                umani).
+                            </li>
+                        </ul>
+                        <p>
+                            Căutăm variante de monetizare echitabile și
+                            accesibile pentru toate segmentele de utilizatori,
+                            de la adolescenți la afaceriști cu venituri
+                            ridicate.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="milestone">
+                    <h2>M2: Validarea ideii</h2>
+
+                    <div class="task">
+                        <h3>Scopul interviurilor</h3>
+                        <p>
+                            Obiectivul principal a fost să evaluăm
+                            <strong
+                                >ideea aplicației noastre de management
+                                financiar</strong
+                            >
+                            și să înțelegem dacă aceasta abordează cu succes
+                            <strong>nevoile utilizatorilor</strong> în ceea ce
+                            privește bugetarea și economisirea. Prin interviuri
+                            structurate și aplicând
+                            <strong>principiile Mom Test</strong>, am încercat
+                            să obținem <strong>feedback sincer</strong> și să
+                            identificăm provocările și dorințele acestora.
+                        </p>
+                        ‹›
+                    </div>
+
+                    <div class="task">
+                        <h3>Metodologie</h3>
+                        <p>
+                            Am organizat interviuri cu un eșantion diversificat
+                            de persoane, în funcție de vârstă și statut
+                            financiar, pentru a obține o imagine de ansamblu
+                            completă. Conform principiilor Mom Test, am pus
+                            accent pe întrebări neutre și deschise, care au
+                            încurajat participanții să își exprime opiniile în
+                            mod autentic, evitând răspunsurile de complezență.
+                            De asemenea am lanst și un scurt chestionar (google
+                            forms) pentru a obține feedback minimal de la un
+                            număr mai mare de persoane.
+                        </p>
+                    </div>
+
+                    <div class="task">
+                        <h3>Rezultate și Observații</h3>
+                        <ul>
+                            <li>
+                                Majoritatea participanților și-au exprimat
+                                interesul pentru o aplicație de
+                                <strong>monitorizare a cheltuielilor</strong>
+                                care să îi ajute să își înțeleagă mai bine
+                                obiceiurile financiare.
+                            </li>
+                            <li>
+                                Categoriile mai tinere au raportat că întâmpină
+                                <strong
+                                    >mai multe dificultăți în gestionarea
+                                    finanțelor</strong
+                                >, având tendința de a cheltui fără un plan
+                                clar.
+                            </li>
+                            <li>
+                                Participanții mai în vârstă au demonstrat o
+                                <strong
+                                    >abilitate mai mare de a economisi</strong
+                                >
+                                și au fost mai sceptici față de aplicațiile de
+                                bugetare, considerând că își controlează bine
+                                cheltuielile.
+                            </li>
+                            <li>
+                                Cei mai mulți participanți au subliniat
+                                importanța unei
+                                <strong
+                                    >interfețe intuitive și a unui sistem de
+                                    notificări</strong
+                                >
+                                pentru a fi constant informați despre
+                                cheltuielile lor.
+                            </li>
+                        </ul>
+                        <div class="task">
+                            <h3>Rezultate ale sondajului</h3>
+                            <p>
+                                Am realizat un sondaj pentru a înțelege mai bine
+                                obiceiurile utilizatorilor privind gestionarea
+                                finanțelor și preferințele lor. Iată câteva
+                                dintre rezultatele relevante:
+                            </p>
+                            <br />
+                            <div class="survey-image">
+                                <img
+                                    src="./assets/form1.png"
+                                    alt="Distribuția pe categorii de vârstă"
+                                />
+                                <p>
+                                    <strong
+                                        >În ce categorie de vârstă te
+                                        încadrezi?</strong
+                                    ><br />
+                                    Majoritatea respondenților (73.9%) se
+                                    încadrează în categoria de vârstă 18-25 de
+                                    ani, sugerând că aplicația noastră va trebui
+                                    să se concentreze pe nevoile acestei
+                                    categorii, urmată de 13% în segmentul 46-55
+                                    de ani.
+                                </p>
+                            </div>
+                            <br />
+                            <div class="survey-image">
+                                <img
+                                    src="./assets/form2.png"
+                                    alt="Utilizarea aplicațiilor de gestionare financiară"
+                                />
+                                <p>
+                                    <strong
+                                        >Folosești în prezent aplicații de
+                                        gestionare a finanțelor / bugetului
+                                        personal?</strong
+                                    ><br />
+                                    Aproximativ 56.5% dintre respondenți nu
+                                    utilizează în prezent astfel de aplicații,
+                                    în timp ce 34.8% le folosesc. Acest lucru
+                                    subliniază un potențial mare de utilizatori
+                                    care ar putea fi atrași de aplicația
+                                    noastră.
+                                </p>
+                            </div>
+                            <br />
+                            <div class="survey-image">
+                                <img
+                                    src="./assets/form3.png"
+                                    alt="Aplicațiile folosite recent pentru gestionarea bugetului"
+                                />
+                                <p>
+                                    <strong
+                                        >Ce aplicație ai folosit cel mai recent
+                                        / folosești pentru gestionarea
+                                        finanțelor / bugetului personal?</strong
+                                    ><br />
+                                    Respondenții au menționat aplicații variate,
+                                    precum Revolut, George BCR, Money Manager,
+                                    și Google Pay, indicând o gamă largă de
+                                    preferințe în utilizarea aplicațiilor
+                                    financiare și nevoia unei soluții integrate.
+                                </p>
+                            </div>
+                            <br />
+                            <div class="survey-image">
+                                <img
+                                    src="./assets/form4.png"
+                                    alt="Satisfacția utilizatorilor față de aplicațiile folosite"
+                                />
+                                <p>
+                                    <strong
+                                        >Cât de mulțumit ești de aplicația
+                                        folosită cel mai recent în ceea ce
+                                        privește urmărirea tuturor conturilor
+                                        tale financiare?</strong
+                                    ><br />
+                                    Aproximativ 50% dintre utilizatori au
+                                    acordat aplicației o notă de 5, indicând un
+                                    nivel ridicat de satisfacție. Totuși, există
+                                    spațiu pentru îmbunătățiri, deoarece 40% au
+                                    oferit nota 4, iar 10% au oferit nota 3.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task">
+                        <h3>Concluzii Generale</h3>
+                        <ul>
+                            <li>
+                                <strong
+                                    >Simplificarea Procesului de
+                                    Bugetare:</strong
+                                >
+                                Mulți utilizatori menționează că monitorizarea
+                                bugetului și a cheltuielilor ia prea mult timp.
+                                O aplicație care automatizează acest proces și
+                                oferă o imagine clară a bugetului săptămânal sau
+                                lunar ar putea reduce efortul și ar încuraja
+                                folosirea continuă.
+                            </li>
+
+                            <li>
+                                <strong
+                                    >Acces la Informații Financiare În Timp
+                                    Real:</strong
+                                >
+                                Un alt aspect remarcat a fost lipsa de
+                                conștientizare a cheltuielilor în timp real. O
+                                funcție care arată clar cheltuielile cumulate în
+                                comparație cu bugetul prestabilit ar putea ajuta
+                                utilizatorii să rămână în limitele bugetului.
+                            </li>
+
+                            <li>
+                                <strong
+                                    >Abordarea Educației Financiare pentru
+                                    Tineri:</strong
+                                >
+                                Unii intervievați tineri sunt conștienți de
+                                problemele financiare, dar nu acționează pentru
+                                a le rezolva. Aceștia ar putea beneficia de o
+                                soluție care îi educă și îi ghidează în
+                                gestionarea bugetului.
+                            </li>
+
+                            <li>
+                                <strong
+                                    >Segmentarea Utilizatorilor după Interesul
+                                    în Gestionarea Banilor:</strong
+                                >
+                                Persoanele care consideră că problema lor
+                                financiară este venitul scăzut și nu gestionarea
+                                banilor vor fi mai puțin interesate de o
+                                aplicație de bugetare. Acest lucru sugerează că
+                                aplicația ar trebui orientată către utilizatorii
+                                cu interes activ în optimizarea cheltuielilor.
+                            </li>
+                        </ul>
+                        <p>
+                            În urma interviurilor, se poate observa că
+                            <strong
+                                >tinerii au dificultăți mai mari în
+                                bugetare</strong
+                            >
+                            și economisire, în comparație cu persoanele din
+                            categoriile de vârstă mai mare. Aceasta indică o
+                            <strong>posibilă piață țintă</strong> pentru
+                            aplicația noastră, cu accent pe nevoile și
+                            obiceiurile financiare ale tinerilor. Următorii pași
+                            ar putea include dezvoltarea unui prototip care să
+                            răspundă direct acestor nevoi, validând în
+                            continuare funcționalitățile propuse.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Noile secțiuni M1 - M5 -->
+        <section class="milestone">
+            <h2>M1: Descrierea Proiectului</h2>
+
+            <div class="team">
+                <div class="team-member">
+                    <img src="./assets/albert.jpeg" alt="Albert" />
+                    <h3>Albert C.</h3>
+                    <p class="roles">PM &bullet; Full Stack Dev</p>
+                    <div class="contact-icons">
+                        <a
+                            href="mailto:albertcraciun@gmail.com"
+                            target="_blank"
+                        >
+                            <img src="./assets/gmail.png" alt="Gmail" />
+                        </a>
+                        <a
+                            href="https://linkedin.com/in/albertc1078"
+                            target="_blank"
+                        >
+                            <img src="./assets/linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a
+                            href="https://github.com/AlbertCraciun"
+                            target="_blank"
+                        >
+                            <img src="./assets/github.png" alt="GitHub" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="./assets/alex.jpeg" alt="Alex C." />
+                    <h3>Alex C.</h3>
+                    <p class="roles">SA &bullet; Full Stack Dev</p>
+                    <div class="contact-icons">
+                        <a
+                            href="mailto:alexcojocaru02@gmail.com"
+                            target="_blank"
+                        >
+                            <img src="./assets/gmail.png" alt="Gmail" />
+                        </a>
+                        <a
+                            href="https://linkedin.com/in/alex-cojocaru-a13b95206"
+                            target="_blank"
+                        >
+                            <img src="./assets/linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a
+                            href="https://github.com/alexcojocaru02"
+                            target="_blank"
+                        >
+                            <img src="./assets/github.png" alt="GitHub" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="./assets/mark.jpeg" alt="Mark C." />
+                    <h3>Mark C.</h3>
+                    <p class="roles">BA &bullet; Full Stack Dev</p>
+                    <div class="contact-icons">
+                        <a href="mailto:ciureamark@gmail.com" target="_blank">
+                            <img src="./assets/gmail.png" alt="Gmail" />
+                        </a>
+                        <a
+                            href="https://linkedin.com/in/mark-luis-ciurea-8b416b1a0"
+                            target="_blank"
+                        >
+                            <img src="./assets/linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a href="https://github.com/MarkuTZ" target="_blank">
+                            <img src="./assets/github.png" alt="GitHub" />
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div class="task">
-                <h3>Concluzii Generale</h3>
-                <ul>
-                    <li>
-                        <strong>Simplificarea Procesului de Bugetare:</strong>
-                        Mulți utilizatori menționează că monitorizarea bugetului
-                        și a cheltuielilor ia prea mult timp. O aplicație care
-                        automatizează acest proces și oferă o imagine clară a
-                        bugetului săptămânal sau lunar ar putea reduce efortul
-                        și ar încuraja folosirea continuă.
-                    </li>
-
-                    <li>
-                        <strong
-                            >Acces la Informații Financiare În Timp
-                            Real:</strong
-                        >
-                        Un alt aspect remarcat a fost lipsa de conștientizare a
-                        cheltuielilor în timp real. O funcție care arată clar
-                        cheltuielile cumulate în comparație cu bugetul
-                        prestabilit ar putea ajuta utilizatorii să rămână în
-                        limitele bugetului.
-                    </li>
-
-                    <li>
-                        <strong
-                            >Abordarea Educației Financiare pentru
-                            Tineri:</strong
-                        >
-                        Unii intervievați tineri sunt conștienți de problemele
-                        financiare, dar nu acționează pentru a le rezolva.
-                        Aceștia ar putea beneficia de o soluție care îi educă și
-                        îi ghidează în gestionarea bugetului.
-                    </li>
-
-                    <li>
-                        <strong
-                            >Segmentarea Utilizatorilor după Interesul în
-                            Gestionarea Banilor:</strong
-                        >
-                        Persoanele care consideră că problema lor financiară
-                        este venitul scăzut și nu gestionarea banilor vor fi mai
-                        puțin interesate de o aplicație de bugetare. Acest lucru
-                        sugerează că aplicația ar trebui orientată către
-                        utilizatorii cu interes activ în optimizarea
-                        cheltuielilor.
-                    </li>
-                </ul>
+                <h3>Problema Observată</h3>
                 <p>
-                    În urma interviurilor, se poate observa că
-                    <strong>tinerii au dificultăți mai mari în bugetare</strong>
-                    și economisire, în comparație cu persoanele din categoriile
-                    de vârstă mai mare. Aceasta indică o
-                    <strong>posibilă piață țintă</strong> pentru aplicația
-                    noastră, cu accent pe nevoile și obiceiurile financiare ale
-                    tinerilor. Următorii pași ar putea include dezvoltarea unui
-                    prototip care să răspundă direct acestor nevoi, validând în
-                    continuare funcționalitățile propuse.
+                    Comunicarea eficientă între locuitorii unei comunități și
+                    autoritățile locale este adesea deficitară. Probleme precum
+                    infrastructura deteriorată, iluminatul public nefuncțional
+                    sau necesitatea serviciilor urgente nu sunt semnalate și
+                    rezolvate rapid din cauza lipsei unei platforme
+                    centralizate.
                 </p>
             </div>
+
+            <div class="task">
+                <h3>Soluția / Propoziția de Valoare</h3>
+                <p>
+                    <strong>CommunityConnect</strong> oferă o platformă unde
+                    locuitorii pot semnala problemele din comunitatea lor, pot
+                    adăuga imagini și descrieri, iar ceilalți utilizatori pot
+                    vota și comenta. Problemele cu cele mai multe voturi sunt
+                    aduse în atenția autorităților locale sau a persoanelor
+                    responsabile, facilitând astfel rezolvarea rapidă.
+                </p>
+            </div>
+
+            <div class="task">
+                <h3>Segmentul de Clienți</h3>
+                <ul>
+                    <li>Locuitorii zonelor urbane și rurale</li>
+                    <li>Asociații de proprietari</li>
+                    <li>Autorități locale și primării</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <h3>Competiția</h3>
+                <ul>
+                    <li>Grupuri de Facebook locale</li>
+                    <li>
+                        Aplicații de raportare a problemelor urbane existente
+                    </li>
+                    <li>Platforme de petiții online</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <h3>Avantajul nostru</h3>
+                <p>
+                    Spre deosebire de grupurile de Facebook sau alte platforme
+                    nestructurate, <strong>CommunityConnect</strong> oferă un
+                    mediu organizat, cu funcționalități specifice pentru
+                    semnalarea și urmărirea problemelor comunitare, facilitând
+                    comunicarea directă cu autoritățile.
+                </p>
+            </div>
+
+            <div class="task">
+                <h3>Metrici Cheie</h3>
+                <ul>
+                    <li>Numărul de probleme raportate și rezolvate</li>
+                    <li>Numărul de utilizatori activi lunar</li>
+                    <li>
+                        Rata de implicare a comunității (comentarii, voturi)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <h3>Structura Costurilor</h3>
+                <ul>
+                    <li>Dezvoltare și mentenanță platformă</li>
+                    <li>Costuri de hosting și infrastructură</li>
+                    <li>Marketing și promovare</li>
+                </ul>
+            </div>
+
+            <div class="task">
+                <h3>Surse de Venit</h3>
+                <ul>
+                    <li>Parteneriate cu autorități locale</li>
+                    <li>Reclamă targetată pentru servicii locale</li>
+                    <li>Abonamente premium pentru funcționalități avansate</li>
+                </ul>
+            </div>
         </section>
+
+        <section class="milestone">
+            <h2>M2: Validarea Ideii</h2>
+
+            <div class="task">
+                <h3>Identificarea Problemei</h3>
+                <p>
+                    Am observat dificultatea cu care problemele comunitare sunt
+                    aduse în atenția autorităților și lipsa unui canal eficient
+                    de comunicare între locuitori și instituții.
+                </p>
+            </div>
+
+            <div class="task">
+                <h3>Soluția Propusă</h3>
+                <p>
+                    Crearea unei platforme unde utilizatorii pot semnala
+                    probleme, pot colabora și pot comunica direct cu
+                    autoritățile pentru a îmbunătăți calitatea vieții în
+                    comunitatea lor.
+                </p>
+            </div>
+
+            <div class="task">
+                <h3>Planul de Descoperire a Clienților</h3>
+                <p>
+                    Vom realiza interviuri și chestionare cu locuitori din
+                    diferite zone, asociații de proprietari și reprezentanți ai
+                    autorităților locale pentru a înțelege nevoile și
+                    provocările acestora.
+                </p>
+            </div>
+
+            <!-- Adăugați detalii suplimentare conform cerințelor -->
+        </section>
+
+        <!-- Continuați cu secțiunile M3 - M5 conform cerințelor -->
+        <!-- Includeți wireframe-uri, link către landing page, interviuri, user personas etc. -->
 
         <footer class="footer">
-            <p>&copy; 2024 SyncPay Start-Up Journey</p>
+            <p>&copy; 2024 CommunityConnect Start-Up Journey</p>
         </footer>
 
         <script src="script.js"></script>

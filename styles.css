@@ -1,134 +1,128 @@
-/* CSS de bază pentru un stil modern și structurat */
+/* styles.scss */
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+  }
 
-body {
+  body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: #333;
 	background-color: #f4f4f9;
-}
+  }
 
-.header {
+  .header {
 	text-align: center;
 	padding: 2rem;
 	background-color: #2d86f4;
 	color: white;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
-}
+  }
 
-h1 {
+  h1 {
 	font-size: 2.5rem;
 	margin-bottom: 0.5rem;
-}
+  }
 
-p {
+  p {
 	margin-bottom: 1.5rem;
-}
+  }
 
-.description {
+  .description {
 	max-width: 700px;
 	margin: 1rem auto 2rem auto;
 	padding-top: 1rem;
 	font-size: 1.1rem;
 	color: #555;
 	text-align: center;
-}
+  }
 
-.team {
+  .team {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	max-width: 600px;
+	max-width: 800px;
 	margin: 2rem auto;
 	padding: 2rem 0;
-}
+  }
 
-.team-member {
+  .team-member {
 	text-align: center;
-}
+  }
 
-.team-member>img {
+  .team-member > img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
 	margin-bottom: 0.5rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  }
 
-.team-member h3 {
+  .team-member h3 {
 	font-weight: bold;
 	color: #333;
-}
+  }
 
-.roles {
+  .roles {
 	font-size: 0.85rem;
 	color: #777;
-}
+  }
 
-.contact-icons {
+  .contact-icons {
 	margin-left: 10px;
 	margin-right: 10px;
-    display: flex;
+	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
-}
+	justify-content: space-between;
+  }
 
-.contact-icons img {
+  .contact-icons img {
 	width: 20px;
 	height: 20px;
 	vertical-align: middle;
-}
-.contact-icons a {
+  }
+
+  .contact-icons a {
 	transition: filter 0.3s ease;
-}
+	margin: 0 5px;
+  }
 
-.contact-icons a:hover {
+  .contact-icons a:hover {
 	filter: brightness(0.8);
-}
+  }
 
-.milestone {
+  .milestone {
 	max-width: 800px;
 	margin: 2rem auto;
 	padding: 1.5rem;
 	background-color: #e6f0ff;
 	border-radius: 15px;
-}
+  }
 
-.milestone h2 {
+  .milestone h2 {
 	text-align: center;
 	font-size: 1.8rem;
 	color: #2d86f4;
-}
+  }
 
-.milestone-link {
-	text-align: center;
-	font-size: 0.85rem;
-	margin-top: -10px;
-}
-
-.task {
+  .task {
 	margin: 1rem 0;
 	padding: 1rem;
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  }
 
-.task h3 {
+  .task h3 {
 	font-size: 1.25rem;
 	margin-bottom: 0.5rem;
 	color: #2d86f4;
-	display: flex;
-	justify-content: space-between;
-}
+  }
 
-footer {
+  footer {
 	text-align: center;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
@@ -136,65 +130,60 @@ footer {
 	background-color: #2d86f4;
 	color: white;
 	margin-top: 2rem;
-}
+  }
 
-a {
-	color: #888888;
+  a {
+	color: #2d86f4;
 	text-decoration: none;
-}
+  }
 
-a:hover {
+  a:hover {
 	text-decoration: underline;
-}
+  }
 
-.external-arrow {
-	font-size: 0.7rem;
-}
+  ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+	margin: 1rem 0;
+	font-size: 1rem;
+	line-height: 1.6;
+  }
 
-ul {
-    list-style-type: none;
-    padding-left: 1.5rem; /* Indentare pentru întreaga listă */
-    margin: 1rem 0;
-    font-size: 1rem;
-    line-height: 1.6;
-}
+  ul li {
+	margin-bottom: 0.75rem;
+  }
 
-ul li {
-    margin-bottom: 0.75rem;
-    text-indent: -1rem; /* Ajustare pentru a aduce bullet-ul la poziția dorită */
-}
+  .old-content {
+	max-width: 800px;
+	margin: 2rem auto;
+  }
 
-ul li a {
-    color: #2d86f4;
-    font-weight: bold;
-    text-decoration: none;
-}
+  .dropdown-btn {
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.2rem;
+	text-align: center;
+	color: white;
+	background-color: #2d86f4;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+  }
 
-ul li a:hover {
-    text-decoration: underline;
-}
+  .dropdown-content {
+	display: none;
+	margin-top: 1rem;
+  }
 
-ul li::before {
-    content: "•";
-    color: #2d86f4;
-    font-size: 1.2rem;
-    margin-right: 0.5rem;
-}
+  .dropdown-content .milestone {
+	background-color: #f9f9f9;
+  }
 
-.survey-image {
-    margin: 1rem 0;
-    text-align: center;
-}
+  .dropdown-btn:after {
+	content: " ▼";
+  }
 
-.survey-image img {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  .dropdown-btn.active:after {
+	content: " ▲";
+  }
 
-.survey-image p {
-    font-size: 1rem;
-    color: #555;
-}
