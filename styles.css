@@ -10,46 +10,49 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #333; /* Gray for text instead of black */
     background-color: #f4f4f9;
 }
 
 /* Meniu de navigare */
 .menu {
-    background-color: #2db86f; /* Verde mai deschis */
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #2db86f; /* Verde principal */
+    padding: 0.5rem 2rem; /* Reduce padding-ul vertical */
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
 }
 
 .menu ul {
     display: flex;
     justify-content: center;
     list-style: none;
-}
-
-.menu ul li {
-    margin: 0 1rem;
+    gap: 1rem; /* Reduce spațiul dintre elementele de meniu */
+    background-color: #2db86f; /* Verde principal */
+    max-height: 80px; /* Limit the height of the menu */
 }
 
 .menu ul li a {
-    color: white;
+    color: white; /* Text is white for readability */
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-weight: 600; /* Slightly bold for better visibility */
+    font-size: 1rem; /* Reduce font-size pentru a fi proporțional */
+    transition: color 0.3s ease, transform 0.2s ease;
+    line-height: 1.2; /* Menține centrat vertical textul */
 }
 
 .menu ul li a:hover {
-    color: #e8f5e9; /* Alb verzui */
+    color: #e0f2f1; /* Pale green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Header */
 .header {
     text-align: center;
     padding: 2rem;
-    background-color: #2db86f; /* Verde */
+    background-color: #2db86f; /* Verde principal */
     color: white;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -72,7 +75,7 @@ p {
     font-size: 1.1rem;
     color: #333;
     background-color: #e9f7ef; /* Verde deschis */
-    border-left: 5px solid #2db86f; /* Accent pe lateral */
+    border-left: 5px solid #2db86f; /* Accent verde */
     border-radius: 10px;
 }
 
@@ -157,12 +160,18 @@ p {
     font-size: 1.2rem;
     text-align: center;
     color: white;
-    background-color: #43a047; /* Verde mai întunecat */
+    background-color: #2db86f; /* Verde principal */
     border: none;
     border-radius: 10px;
     cursor: pointer;
     margin: 0 auto; /* Centered the button */
     display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dropdown-btn:hover {
+    background-color: #43a047; /* Slightly darker green */
+    transform: scale(1.02);
 }
 
 .dropdown-content {
@@ -188,7 +197,7 @@ footer {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     padding: 1rem;
-    background-color: #2db86f; /* Verde */
+    background-color: #2db86f; /* Verde principal */
     color: white;
     margin-top: 2rem;
 }
@@ -202,10 +211,10 @@ footer {
 }
 
 #to-top button {
-    background-color: #e0f2f1; /* Faded green */
-    color: #333;
+    background-color: #a5d6a7; /* Faded secondary green */
+    color: white;
     border: none;
-    border-radius: 0; /* Square button */
+    border-radius: 5px; /* Slightly rounded button */
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -214,7 +223,7 @@ footer {
 }
 
 #to-top button:hover {
-    background-color: #b2dfdb; /* Slightly darker */
+    background-color: #81c784; /* Slightly darker */
 }
 
 /* Lists Styling */
@@ -223,7 +232,7 @@ ul {
     font-size: 1rem;
     line-height: 1.6;
     list-style: disc inside;
-    background-color: #f1f8e9; /* Light green background */
+    background-color: #e9f7ef; /* Verde deschis */
     padding: 1rem;
     margin: 1rem auto;
     border-radius: 8px;
