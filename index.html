@@ -1,3 +1,5 @@
+<!-- file: index.html -->
+
 <!DOCTYPE html>
 <html lang="ro">
     <head>
@@ -7,12 +9,25 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#description">Descriere</a></li>
+                <li><a href="#old-content">Conținut vechi</a></li>
+                <li><a href="#m1">M1: Descriere</a></li>
+                <li><a href="#m2">M2: Validarea</a></li>
+            </ul>
+        </nav>
+
+        <div id="to-top">
+            <button>⬆</button>
+        </div>
+
         <header class="header">
             <h1>CommunityConnect</h1>
             <p>Îmbunătățim comunitățile împreună</p>
         </header>
 
-        <section class="description">
+        <section id="description" class="description">
             <p>
                 <strong>CommunityConnect</strong> este o platformă care
                 facilitează comunicarea între locuitorii unui cartier și
@@ -29,7 +44,7 @@
             </p>
         </section>
 
-        <section class="old-content">
+        <section id="old-content" class="old-content">
             <button class="dropdown-btn">
                 Vezi ideea inițială și progresul anterior
             </button>
@@ -57,95 +72,6 @@
                         În orice caz, aici vom documenta tot ce se poate, de la
                         idee la o finalitate.
                     </p>
-                </section>
-
-                <section class="team">
-                    <div class="team-member">
-                        <img src="./assets/albert.jpeg" alt="Albert" />
-                        <h3>Albert C.</h3>
-                        <p class="roles">PM &bullet; Full Stack Dev</p>
-                        <div class="contact-icons">
-                            <a
-                                href="mailto:albertcraciun@gmail.com"
-                                target="_blank"
-                            >
-                                <img src="./assets/gmail.png" alt="Gmail" />
-                            </a>
-                            <a
-                                href="https://linkedin.com/in/albertc1078"
-                                target="_blank"
-                            >
-                                <img
-                                    src="./assets/linkedin.png"
-                                    alt="LinkedIn"
-                                />
-                            </a>
-                            <a
-                                href="https://github.com/AlbertCraciun"
-                                target="_blank"
-                            >
-                                <img src="./assets/github.png" alt="GitHub" />
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="team-member">
-                        <img src="./assets/alex.jpeg" alt="Alex C." />
-                        <h3>Alex C.</h3>
-                        <p class="roles">SA &bullet; Full Stack Dev</p>
-                        <div class="contact-icons">
-                            <a
-                                href="mailto:alexcojocaru02@gmail.com"
-                                target="_blank"
-                            >
-                                <img src="./assets/gmail.png" alt="Gmail" />
-                            </a>
-                            <a
-                                href="https://linkedin.com/in/alex-cojocaru-a13b95206"
-                                target="_blank"
-                            >
-                                <img
-                                    src="./assets/linkedin.png"
-                                    alt="LinkedIn"
-                                />
-                            </a>
-                            <a
-                                href="https://github.com/alexcojocaru02"
-                                target="_blank"
-                            >
-                                <img src="./assets/github.png" alt="GitHub" />
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="team-member">
-                        <img src="./assets/mark.jpeg" alt="Mark C." />
-                        <h3>Mark C.</h3>
-                        <p class="roles">BA &bullet; Full Stack Dev</p>
-                        <div class="contact-icons">
-                            <a
-                                href="mailto:ciureamark@gmail.com"
-                                target="_blank"
-                            >
-                                <img src="./assets/gmail.png" alt="Gmail" />
-                            </a>
-                            <a
-                                href="https://linkedin.com/in/mark-luis-ciurea-8b416b1a0"
-                                target="_blank"
-                            >
-                                <img
-                                    src="./assets/linkedin.png"
-                                    alt="LinkedIn"
-                                />
-                            </a>
-                            <a
-                                href="https://github.com/MarkuTZ"
-                                target="_blank"
-                            >
-                                <img src="./assets/github.png" alt="GitHub" />
-                            </a>
-                        </div>
-                    </div>
                 </section>
 
                 <section class="milestone">
@@ -788,7 +714,7 @@
         </section>
 
         <!-- Noile secțiuni M1 - M5 -->
-        <section class="milestone">
+        <section id="m1" class="milestone">
             <h2>M1: Descrierea Proiectului</h2>
 
             <div class="team">
@@ -950,7 +876,7 @@
             </div>
         </section>
 
-        <section class="milestone">
+        <section id="m1" class="milestone">
             <h2>M2: Validarea Ideii</h2>
 
             <div class="task">
