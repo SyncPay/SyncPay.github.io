@@ -1,189 +1,279 @@
 /* styles.scss */
 
+/* Reset și stiluri generale */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  body {
-	font-family: Arial, sans-serif;
-	line-height: 1.6;
-	color: #333;
-	background-color: #f4f4f9;
-  }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Gray for text instead of black */
+    background-color: #f4f4f9;
+}
 
-  .header {
-	text-align: center;
-	padding: 2rem;
-	background-color: #2d86f4;
-	color: white;
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-  }
+/* Meniu de navigare */
+.menu {
+    background-color: #2db86f; /* Verde principal */
+    padding: 0.5rem 2rem; /* Reduce padding-ul vertical */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
 
-  h1 {
-	font-size: 2.5rem;
-	margin-bottom: 0.5rem;
-  }
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem; /* Reduce spațiul dintre elementele de meniu */
+    max-height: 80px; /* Limit the height of the menu */
+    background-color: #2db86f; /* Verde principal */
+}
 
-  p {
-	margin-bottom: 1.5rem;
-  }
+.menu ul li a {
+    color: white; /* Text is white for readability */
+    text-decoration: none;
+    font-weight: 600; /* Slightly bold for better visibility */
+    font-size: 1rem; /* Reduce font-size pentru a fi proporțional */
+    transition: color 0.3s ease, transform 0.2s ease;
+    line-height: 1.2; /* Menține centrat vertical textul */
+}
 
-  .description {
-	max-width: 700px;
-	margin: 1rem auto 2rem auto;
-	padding-top: 1rem;
-	font-size: 1.1rem;
-	color: #555;
-	text-align: center;
-  }
+.menu ul li a:hover {
+    color: #e0f2f1; /* Pale green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
 
-  .team {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	max-width: 800px;
-	margin: 2rem auto;
-	padding: 2rem 0;
-  }
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #2db86f; /* Verde principal */
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
 
-  .team-member {
-	text-align: center;
-  }
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
 
-  .team-member > img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	margin-bottom: 0.5rem;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+p {
+    margin-bottom: 1.5rem;
+}
 
-  .team-member h3 {
-	font-weight: bold;
-	color: #333;
-  }
+.preambul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 1rem auto 0.5rem auto;
+    padding: 1rem;
+    color: #555;
+}
 
-  .roles {
-	font-size: 0.85rem;
-	color: #777;
-  }
+/* Descriere */
+.description {
+    max-width: 700px;
+    margin: 1rem auto 2rem auto;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #e9f7ef; /* Verde deschis */
+    border-left: 5px solid #2db86f; /* Accent verde */
+    border-radius: 10px;
+}
 
-  .contact-icons {
-	margin-left: 10px;
-	margin-right: 10px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-  }
+.initial-idea {
+    max-width: 700px;
+    margin: 1rem auto 0.5rem auto;
+    padding: 1rem;
+    font-style: italic;
+    color: #555;
+}
 
-  .contact-icons img {
-	width: 20px;
-	height: 20px;
-	vertical-align: middle;
-  }
+/* Buton dropdown */
+.dropdown-btn {
+    width: auto; /* Ajustează lățimea automată */
+    padding: 0.8rem 1.5rem; /* Padding redus */
+    font-size: 1rem; /* Font mai mic */
+    text-align: center;
+    color: white;
+    background-color: #2db86f; /* Verde principal */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem auto; /* Mai aproape de paragrafe */
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-  .contact-icons a {
-	transition: filter 0.3s ease;
-	margin: 0 5px;
-  }
+.dropdown-btn:hover {
+    background-color: #43a047; /* Slightly darker green */
+    transform: scale(1.02);
+}
 
-  .contact-icons a:hover {
-	filter: brightness(0.8);
-  }
+.dropdown-content {
+    display: none;
+    margin-top: 1rem;
+}
 
-  .milestone {
-	max-width: 800px;
-	margin: 2rem auto;
-	padding: 1.5rem;
-	background-color: #e6f0ff;
-	border-radius: 15px;
-  }
+.dropdown-content .milestone {
+    background-color: #eef7fc; /* Schimbare de culoare în albastru deschis */
+    border: 1px solid #c3e0f7; /* Bordură albastră deschisă */
+}
 
-  .milestone h2 {
-	text-align: center;
-	font-size: 1.8rem;
-	color: #2d86f4;
-  }
+.dropdown-content .milestone h2 {
+    color: #007bff; /* Albastru pentru titluri */
+}
 
-  .task {
-	margin: 1rem 0;
-	padding: 1rem;
-	background-color: white;
-	border-radius: 10px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+.dropdown-content .task {
+    background-color: #ffffff; /* Alb pentru interior */
+    border-left: 5px solid #89c2eb; /* Accent albastru */
+}
 
-  .task h3 {
-	font-size: 1.25rem;
-	margin-bottom: 0.5rem;
-	color: #2d86f4;
-  }
+.dropdown-btn:after {
+    content: " ▼";
+}
 
-  footer {
-	text-align: center;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
-	padding: 1rem;
-	background-color: #2d86f4;
-	color: white;
-	margin-top: 2rem;
-  }
+.dropdown-btn.active:after {
+    content: " ▲";
+}
 
-  a {
-	color: #2d86f4;
-	text-decoration: none;
-  }
+/* Echipa */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
 
-  a:hover {
-	text-decoration: underline;
-  }
+.team-member {
+    text-align: center;
+    margin: 1rem;
+}
 
-  ul {
-	list-style-type: disc;
-	padding-left: 1.5rem;
-	margin: 1rem 0;
-	font-size: 1rem;
-	line-height: 1.6;
-  }
+/* Team Member Images */
+.team-member > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  ul li {
-	margin-bottom: 0.75rem;
-  }
+/* Contact Icons */
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
 
-  .old-content {
-	max-width: 800px;
-	margin: 2rem auto;
-  }
+.contact-icons img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
 
-  .dropdown-btn {
-	width: 100%;
-	padding: 1rem;
-	font-size: 1.2rem;
-	text-align: center;
-	color: white;
-	background-color: #2d86f4;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-  }
+.contact-icons a {
+    transition: filter 0.3s ease;
+    margin: 0 5px;
+}
 
-  .dropdown-content {
-	display: none;
-	margin-top: 1rem;
-  }
+.contact-icons a:hover {
+    filter: brightness(0.8);
+}
 
-  .dropdown-content .milestone {
-	background-color: #f9f9f9;
-  }
+/* Milestones */
+.milestone {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #e9f7ef; /* Verde deschis */
+    border-radius: 15px;
+    border: 1px solid #c8e6c9; /* Bază verde */
+}
 
-  .dropdown-btn:after {
-	content: " ▼";
-  }
+.milestone h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2db86f; /* Verde închis */
+}
 
-  .dropdown-btn.active:after {
-	content: " ▲";
-  }
+.task {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #81c784; /* Accent verde */
+}
 
+/* Footer */
+footer {
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 1rem;
+    background-color: #2db86f; /* Verde principal */
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Buton to top */
+#to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#to-top button {
+    background-color: #a5d6a7; /* Faded secondary green */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Slightly rounded button */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#to-top button:hover {
+    background-color: #81c784; /* Slightly darker */
+}
+
+/* Lists Styling */
+ul {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    list-style: disc inside;
+    background-color: #eef7fc; /* Albastru deschis */
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+    color: #2db86f; /* Verde */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
