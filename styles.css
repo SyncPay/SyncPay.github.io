@@ -30,8 +30,8 @@ body {
     justify-content: center;
     list-style: none;
     gap: 1rem; /* Reduce spațiul dintre elementele de meniu */
-    background-color: #2db86f; /* Verde principal */
     max-height: 80px; /* Limit the height of the menu */
+    background-color: #2db86f; /* Verde principal */
 }
 
 .menu ul li a {
@@ -67,6 +67,15 @@ p {
     margin-bottom: 1.5rem;
 }
 
+.preambul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 1rem auto 0.5rem auto;
+    padding: 1rem;
+    color: #555;
+}
+
 /* Descriere */
 .description {
     max-width: 700px;
@@ -77,6 +86,62 @@ p {
     background-color: #e9f7ef; /* Verde deschis */
     border-left: 5px solid #2db86f; /* Accent verde */
     border-radius: 10px;
+}
+
+.initial-idea {
+    max-width: 700px;
+    margin: 1rem auto 0.5rem auto;
+    padding: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* Buton dropdown */
+.dropdown-btn {
+    width: auto; /* Ajustează lățimea automată */
+    padding: 0.8rem 1.5rem; /* Padding redus */
+    font-size: 1rem; /* Font mai mic */
+    text-align: center;
+    color: white;
+    background-color: #2db86f; /* Verde principal */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem auto; /* Mai aproape de paragrafe */
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dropdown-btn:hover {
+    background-color: #43a047; /* Slightly darker green */
+    transform: scale(1.02);
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 1rem;
+}
+
+.dropdown-content .milestone {
+    background-color: #eef7fc; /* Schimbare de culoare în albastru deschis */
+    border: 1px solid #c3e0f7; /* Bordură albastră deschisă */
+}
+
+.dropdown-content .milestone h2 {
+    color: #007bff; /* Albastru pentru titluri */
+}
+
+.dropdown-content .task {
+    background-color: #ffffff; /* Alb pentru interior */
+    border-left: 5px solid #89c2eb; /* Accent albastru */
+}
+
+.dropdown-btn:after {
+    content: " ▼";
+}
+
+.dropdown-btn.active:after {
+    content: " ▲";
 }
 
 /* Echipa */
@@ -152,45 +217,6 @@ p {
     border-left: 5px solid #81c784; /* Accent verde */
 }
 
-/* Dropdown */
-.dropdown-btn {
-    width: 100%;
-    max-width: 800px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-align: center;
-    color: white;
-    background-color: #2db86f; /* Verde principal */
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 0 auto; /* Centered the button */
-    display: block;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.dropdown-btn:hover {
-    background-color: #43a047; /* Slightly darker green */
-    transform: scale(1.02);
-}
-
-.dropdown-content {
-    display: none;
-    margin-top: 1rem;
-}
-
-.dropdown-content .milestone {
-    background-color: #f1f8e9; /* Foarte deschis */
-}
-
-.dropdown-btn:after {
-    content: " ▼";
-}
-
-.dropdown-btn.active:after {
-    content: " ▲";
-}
-
 /* Footer */
 footer {
     text-align: center;
@@ -232,7 +258,7 @@ ul {
     font-size: 1rem;
     line-height: 1.6;
     list-style: disc inside;
-    background-color: #e9f7ef; /* Verde deschis */
+    background-color: #eef7fc; /* Albastru deschis */
     padding: 1rem;
     margin: 1rem auto;
     border-radius: 8px;

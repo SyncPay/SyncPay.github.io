@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CommunityConnect Journey</title>
+        <title>CommSolve Journey</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
@@ -23,24 +23,71 @@
         </div>
 
         <header class="header">
-            <h1>CommunityConnect</h1>
+            <h1>CommSolve</h1>
             <p>Îmbunătățim comunitățile împreună</p>
         </header>
 
+        <section class="preambul">
+            <p>
+                Această pagină este un jurnal - un jurnal de călătorie. De mult
+                voiam să avem un proiect comun în zona IT câțiva prieteni
+                apropiați, dar mereu a existat scuza timpului. Noroc - în măsura
+                în care se poate numi astfel - cu masterul și profu' de
+                <a href="https://ocw.cs.pub.ro/courses/se" target="_blank"
+                    >Inginerie Aplicată în Startup-uri (IAS)</a
+                >
+                că acum avem alături de alte motivații și să trecem materia.
+                <br /><br />
+                Glumim. Deși e o temă de curs, o tratăm cât se poate de serios
+                ca prima noastră încercare de Startup și ne bucurăm din plin de
+                călătoria pe care o s-o avem, sperăm, mai mult de 3 luni... dar
+                cine știe.
+                <br /><br />
+                În orice caz, aici vom documenta tot ce se poate, de la idee la
+                o finalitate.
+            </p>
+        </section>
+
         <section id="description" class="description">
             <p>
-                <strong>CommunityConnect</strong> este o platformă care
-                facilitează comunicarea între locuitorii unui cartier și
-                autoritățile locale, permițând semnalarea problemelor
-                comunității și colaborarea pentru rezolvarea lor.
+                <strong>CommSolve</strong> este o platformă inovatoare care
+                facilitează comunicarea și colaborarea între membrii unei
+                comunități, precum asociații de locatari, sate mici sau cartiere
+                urbane. Scopul nostru principal este să oferim un spațiu digital
+                unde oamenii pot discuta problemele comune, pot găsi soluții
+                împreună și pot oferi sau primi ajutor direct din partea
+                vecinilor și colegilor de comunitate.
             </p>
             <p>
-                Aceasta nu a fost ideea noastră inițială. La început, am dorit
-                să dezvoltăm o aplicație de management financiar personal.
-                Totuși, în urma validării, am constatat că mulți oameni nu au
-                experiență cu astfel de instrumente și nu percep nevoia lor,
-                astfel că ideea nu a trecut testele de validitate pentru un
-                startup.
+                Pe lângă această direcție principală, platforma include și un
+                mod dedicat de semnalare a problemelor către autoritățile
+                locale, oferind comunităților o șansă să fie auzite. Totuși,
+                prioritatea noastră este să construim o rețea eficientă de
+                sprijin reciproc între locuitori, unde colaborarea și
+                solidaritatea sunt cheia.
+            </p>
+        </section>
+
+        <section class="initial-idea">
+            <p>
+                Aceasta nu a fost ideea noastră inițială. Inițial, am dorit să
+                dezvoltăm o aplicație dedicată managementului financiar
+                personal, adresată persoanelor interesate să își urmărească
+                bugetele și să își optimizeze cheltuielile. Cu toate acestea, în
+                urma unui proces riguros de validare a ideii, care a implicat
+                interviuri și studii de piață cu diverse segmente de
+                utilizatori, am constatat că nivelul scăzut de interes și
+                educație financiară din România face ca o astfel de soluție să
+                fie dificil de implementat și susținut.
+            </p>
+            <p>
+                În urma acestor concluzii, ne-am orientat atenția către o
+                problemă mai largă și mai tangibilă: sprijinirea comunităților
+                locale printr-o platformă care să faciliteze colaborarea,
+                discuțiile și, în cele din urmă, rezolvarea problemelor comune.
+                Astfel, am creat <strong>CommSolve</strong>, cu scopul de a
+                adresa atât nevoile de interacțiune dintre locuitori, cât și, în
+                mod secundar, comunicarea cu autoritățile locale.
             </p>
         </section>
 
@@ -49,33 +96,8 @@
                 Vezi ideea inițială și progresul anterior
             </button>
             <div class="dropdown-content">
-                <section class="description">
-                    <p>
-                        Această pagină este un jurnal - un jurnal de călătorie.
-                        De mult voiam să avem un proiect comun în zona IT câțiva
-                        prieteni apropiați, dar mereu a existat scuza timpului.
-                        Noroc - în măsura în care se poate numi astfel - cu
-                        masterul și profu' de
-                        <a
-                            href="https://ocw.cs.pub.ro/courses/se"
-                            target="_blank"
-                            >Inginerie Aplicată în Startup-uri (IAS)</a
-                        >
-                        că acum avem alături de alte motivații și să trecem
-                        materia.
-                        <br />
-                        Glumim. Deși e o temă de curs, o tratăm cât se poate de
-                        serios ca prima noastră încercare de Startup și ne
-                        bucurăm din plin de călătoria pe care o s-o avem,
-                        sperăm, mai mult de 3 luni... dar cine știe.
-                        <br />
-                        În orice caz, aici vom documenta tot ce se poate, de la
-                        idee la o finalitate.
-                    </p>
-                </section>
-
                 <section class="milestone">
-                    <h2>M1: Descrierea proiectului</h2>
+                    <h2 style="color: #007bff">M1: Descrierea proiectului</h2>
                     <p class="milestone-link">
                         <a
                             href="https://ocw.cs.pub.ro/courses/se/project/milestones/m1"
@@ -794,44 +816,58 @@
             <div class="task">
                 <h3>Problema Observată</h3>
                 <p>
-                    Comunicarea eficientă între locuitorii unei comunități și
-                    autoritățile locale este adesea deficitară. Probleme precum
-                    infrastructura deteriorată, iluminatul public nefuncțional
-                    sau necesitatea serviciilor urgente nu sunt semnalate și
-                    rezolvate rapid din cauza lipsei unei platforme
-                    centralizate.
+                    În comunitățile locale, lipsa unei platforme dedicate duce
+                    la dificultăți majore în comunicarea între locuitori, precum
+                    și la lipsa de sprijin reciproc pentru probleme comune.
+                    Oamenii au nevoie de un spațiu digital unde să poată discuta
+                    despre problemele care îi afectează zilnic, să propună
+                    soluții și să colaboreze eficient. Pe lângă această nevoie
+                    primară, semnalarea problemelor către autoritățile locale
+                    este de multe ori greoaie și neclară, ceea ce îngreunează
+                    rezolvarea lor.
                 </p>
             </div>
 
             <div class="task">
                 <h3>Soluția / Propoziția de Valoare</h3>
                 <p>
-                    <strong>CommunityConnect</strong> oferă o platformă unde
-                    locuitorii pot semnala problemele din comunitatea lor, pot
-                    adăuga imagini și descrieri, iar ceilalți utilizatori pot
-                    vota și comenta. Problemele cu cele mai multe voturi sunt
-                    aduse în atenția autorităților locale sau a persoanelor
-                    responsabile, facilitând astfel rezolvarea rapidă.
+                    <strong>CommSolve</strong> este o platformă care își propune
+                    să aducă locuitorii împreună pentru a colabora la rezolvarea
+                    problemelor comunității. Utilizatorii pot posta întrebări,
+                    cereri de ajutor sau sugestii de îmbunătățire, creând o
+                    rețea digitală activă pentru sprijin reciproc. În același
+                    timp, platforma include funcționalități care permit
+                    raportarea problemelor către autoritățile locale, cu scopul
+                    de a accelera procesul de rezolvare, dar rămâne un aspect
+                    secundar comparativ cu colaborarea dintre locuitori.
                 </p>
             </div>
 
             <div class="task">
                 <h3>Segmentul de Clienți</h3>
                 <ul>
-                    <li>Locuitorii zonelor urbane și rurale</li>
-                    <li>Asociații de proprietari</li>
-                    <li>Autorități locale și primării</li>
+                    <li>Locuitorii cartierelor urbane și rurale</li>
+                    <li>Asociații de locatari și grupuri de vecini</li>
+                    <li>Comunități mici interesate de sprijin reciproc</li>
+                    <li>
+                        Autorități locale care doresc să îmbunătățească legătura
+                        cu cetățenii
+                    </li>
                 </ul>
             </div>
 
             <div class="task">
                 <h3>Competiția</h3>
                 <ul>
-                    <li>Grupuri de Facebook locale</li>
+                    <li>Grupuri locale de Facebook sau WhatsApp</li>
                     <li>
-                        Aplicații de raportare a problemelor urbane existente
+                        Aplicații de raportare a problemelor urbane (în mare
+                        parte focusate doar pe autorități)
                     </li>
-                    <li>Platforme de petiții online</li>
+                    <li>
+                        Foruri și platforme de petiții online fără o componentă
+                        colaborativă activă
+                    </li>
                 </ul>
             </div>
 
@@ -839,21 +875,31 @@
                 <h3>Avantajul nostru</h3>
                 <p>
                     Spre deosebire de grupurile de Facebook sau alte platforme
-                    nestructurate, <strong>CommunityConnect</strong> oferă un
-                    mediu organizat, cu funcționalități specifice pentru
-                    semnalarea și urmărirea problemelor comunitare, facilitând
-                    comunicarea directă cu autoritățile.
+                    nestructurate, <strong>CommSolve</strong> oferă o soluție
+                    centralizată, organizată, unde utilizatorii pot interacționa
+                    direct pentru a găsi soluții la problemele comune. În plus,
+                    platforma permite și semnalarea problemelor către
+                    autorități, asigurând o dublă funcționalitate, dar
+                    prioritatea noastră rămâne construirea unei comunități unite
+                    și active.
                 </p>
             </div>
 
             <div class="task">
                 <h3>Metrici Cheie</h3>
                 <ul>
-                    <li>Numărul de probleme raportate și rezolvate</li>
-                    <li>Numărul de utilizatori activi lunar</li>
                     <li>
-                        Rata de implicare a comunității (comentarii, voturi)
+                        Numărul de interacțiuni între utilizatori (comentarii,
+                        răspunsuri, aprecieri)
                     </li>
+                    <li>
+                        Numărul de probleme comunitare rezolvate prin colaborare
+                    </li>
+                    <li>
+                        Numărul de raportări de probleme adresate autorităților
+                        și rezolvate
+                    </li>
+                    <li>Rata de retenție a utilizatorilor activi lunar</li>
                 </ul>
             </div>
 
