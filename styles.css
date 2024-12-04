@@ -84,7 +84,7 @@ p {
     font-size: 1.1rem;
     color: #333;
     background-color: #e9f7ef; /* Verde deschis */
-    border-left: 5px solid #2db86f; /* Accent verde */
+    border-left: 5px solid #2db86f;
     border-radius: 10px;
 }
 
@@ -325,22 +325,22 @@ img {
 .response-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 0.2rem; /* Tighter spacing within the response bubble */
-    background-color: #e0f7fa;
+    background-color:  #e9f7ef; /* Verde deschis */
+    padding: 0.5rem 0.5rem;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .response-name {
     font-weight: bold;
-    color: #555;
+    color: #777777;
     font-size: 0.9rem;
 }
 
 .response-text {
-    padding: 0.5rem 1rem;
-    max-width: 70%;
+    max-width: 270px;
     text-align: left;
     position: relative;
 }

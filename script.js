@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const responses = [
         {
             question1: { name: "Person 1", text: "România" },
-            question2: { name: "Person 1", text: "Ion" },
+            question2: {
+                name: "Person 1",
+                text: "Ion IOOOOONONSJDBHJSBDJAHS BJDH ASJHB DAJS DBJ AS",
+            },
             question3: { name: "Person 1", text: "Determinarea" },
         },
         {
