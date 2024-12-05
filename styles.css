@@ -84,7 +84,7 @@ p {
     font-size: 1.1rem;
     color: #333;
     background-color: #e9f7ef; /* Verde deschis */
-    border-left: 5px solid #2db86f; /* Accent verde */
+    border-left: 5px solid #2db86f;
     border-radius: 10px;
 }
 
@@ -197,9 +197,10 @@ p {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background-color: #e9f7ef; /* Verde deschis */
-    border-radius: 15px;
-    border: 1px solid #c8e6c9; /* Bază verde */
+    /* background-color: #e9f7ef; Verde deschis */
+    /* border-radius: 15px; */
+    /* border: 1px solid #c8e6c9; Bază verde */
+    border-top: 1px solid #2db86f;
 }
 
 .milestone h2 {
@@ -283,4 +284,76 @@ img {
     height: auto;
     display: block;
     margin: 1rem auto;
+}
+
+/* Chat-like carousel */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: #2db86f 1.3px solid;
+    border-radius: 40px;
+    /* background-color: #f4f4f9; */
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem; /* Reduced spacing between question and response */
+}
+
+.question {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    text-align: right;
+}
+
+.response-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem; /* Tighter spacing within the response bubble */
+    background-color:  #e9f7ef; /* Verde deschis */
+    padding: 0.5rem 0.5rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.response-name {
+    font-weight: bold;
+    color: #777777;
+    font-size: 0.9rem;
+}
+
+.response-text {
+    max-width: 270px;
+    text-align: left;
+    position: relative;
+}
+
+button.arrow {
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+button.arrow:hover {
+    color: #333;
 }
