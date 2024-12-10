@@ -357,3 +357,23 @@ button.arrow {
 button.arrow:hover {
     color: #333;
 }
+
+/* Stiluri pentru imagini din <figure> */
+figure img {
+    max-width: 100%; /* Asigură că imaginea nu depășește containerul */
+    height: auto; /* Menține proporțiile imaginii */
+}
+
+figure img {
+    max-height: 400px; /* Maxim 400px înălțime */
+    width: auto; /* Ajustează lățimea proporțional */
+}
+
+@media screen and (min-width: 0px) {
+    figure img {
+        object-fit: contain;
+        max-height: 400px;
+        display: block;
+        margin: 0 auto; /* Centrat în container */
+    }
+}
