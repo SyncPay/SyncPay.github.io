@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             question6: {
                 name: "Clara, 20 ani, studentă ASE",
-                text: "Un grup pe WhatsApp ar fi util, dar autoritățile lipsesc.",
+                text: "Un grup pe WhatsApp ar fi util, însă tot ar fi o problemă absența unui moderator.",
             },
         },
         {
@@ -136,11 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             question4: {
                 name: "Mugurel, 55 ani, pastor",
-                text: "Nu toți vecinii sunt receptivi la problemele comune.",
+                text: "Nu toți vecinii sunt receptivi la problemele comune, dar într-un final se rezolvă.",
             },
             question5: {
                 name: "Mugurel, 55 ani, pastor",
-                text: "Este o colaborare minimă, dar necesară.",
+                text: "Este o colaborare mbună, discuții minime, dar suficiente.",
             },
             question6: {
                 name: "Mugurel, 55 ani, pastor",
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             question3: {
                 name: "Victor, 23 ani, designer",
-                text: "Vorbesc cu administratorul sau chem pe cineva calificat.",
+                text: "Vorbesc cu propietarul să cheme pe cineva calificat.",
             },
             question4: {
                 name: "Victor, 23 ani, designer",
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             question5: {
                 name: "Victor, 23 ani, designer",
-                text: "Comunicarea e bună, dar nu suficientă.",
+                text: "Comunicarea cu proprietarul e bună, dar nu suficientă.",
             },
             question6: {
                 name: "Victor, 23 ani, designer",
